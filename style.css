@@ -8,3 +8,9 @@ h1 {
 	background-width:"30";
 	background-color:"blue";
 }
+
+h2 {
+	color:blue;
+	text-align:center;
+	font-family:"Times New Roman", Times, serif;
+}
