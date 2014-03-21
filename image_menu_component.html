@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>image_menu_component</title>
+	</head>
+	<body>
+		<h1>Image Menu:</h1>
+				<p> 
+					This component allows the author or user to put images into a viewable array and cycle through them. If there are multiple images in the menu clicking on the arrows current image will cycle to the next.
+				</p>
+				<h2>Listener Channels</h2>
+				<ul>
+					<li>
+						<strong>Add image: </strong>takes an output image info from another component  and adds it to the menu
+					</li>
+					<li>
+						<strong>Delete image: </strong>listens for a signal from another component and deletes the current image
+					</li>
+					<li>
+						<strong>Set image height: </strong>listens for a text input from another component and changes the image dimensions
+					</li>
+					<li>
+						<strong>Set image source: </strong>listens for a text input from another component to change the current image for another
+					</li>
+				</ul>
+				<h2>Output Channel:</h2>
+				<ul>
+					<li>
+						<strong>Send current image label: </strong>The output channel will send out the current image label, this will be defaulted in an array order <i>(1,,,2,,,3,,,4...ect.)</i>. The author can change the name of this label to suit their needs.
+					</li>
+				</ul>
+		<p><img src="Images/illustration-imageMenu-component.jpg" alt="image menu" width = "800" height="400"></p>
+	</body>
+</html>

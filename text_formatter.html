@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>text_formatter</title>
+	</head>
+	<body>
+		<h1>Text Formatter:</h1>
+		<p>
+			This component takes integer data and places it into a sentence structure made by the author of the app. It accepts multiple channels then through the customization bar the author can edit a sentence around those values.
+			<br>
+			[String Ex: "The number of apples (john) takes is 3" -- <i><strong>(john) and (3) are the received values and were placed in that order by the author.</strong></i>]
+		</p>
+		<h2>Listener Channel:</h2>
+		<ul>
+			<li>
+				<strong>Add parser option: </strong>listens to values that can be added to the options list in the text-parser screen.
+			</li>
+			<li>
+				<strong>Confirm string: </strong>listens for a sentence confirmed signal that will send the finished sentence structure out to the next component.
+			</li>
+		</ul>
+		<h2>Output Channels:</h2>
+		<ul>
+			<li>
+				<strong>Confirmed String:</strong>sends out confirmed strings pre-made by the author that contain the values gathered by the listener channels.
+			</li>
+		</ul>
+		<p>
+			<img src="Images/illustration-textFormatter-component.jpg" alt="Text Formatter" width="800" height ="400">
+		</p>
+	</body>
+</html>

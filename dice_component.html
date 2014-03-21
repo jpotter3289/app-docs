@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>dice_component</title>
+	</head>
+	<body>
+		<h1>Random Numbers Generator</h1>
+		<p>
+			This component gives the user the ability to make multiple random number generators. It received data on how many rolls it should make, a variable for what type of roll it should make according to the authors pre-set plan and then looks for a signal to make that roll.
+		<p>
+		<h2>Listener Channels</h2>
+		<ul>
+			<li>
+				<strong>Set label: </strong>listens for a channel that tells it which type of roll to make.
+			</li>
+			<li>
+				<strong>Add more rolls: </strong>listens to a channel to tell it how many rolls it should make at once.
+			</li>
+			<li>
+				<strong>Generate number(s): </strong>listens to a channel that signals it to generate a random number.
+			</li>
+		</ul>
+		<h2>Output Channels</h2>
+		<ul>
+			<li>
+				<strong>Output new value(s): </strong>outputs the random number generated and how many times it gets generated out in integer form.
+			</li>
+			<h3>The default settings:</h3>
+			<ul>
+				<li>label = 1</li>
+				<li>highest # = 2</li>
+				<li>lowest # = 1</li>
+				<li># of times to generate = 1</li>
+			</ul>
+		</ul>
+		<p><img src="Images/illustration-dice-component.jpg" alt="Dice Component" width="800" height="400"></p>

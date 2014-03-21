@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>interactable_counter_component</title>
+	</head>
+	<body>
+		<h1>Interactable Counter</h1>
+				<p>
+					This is an interactable counter button.  The user can use the arrows to cycle through whole numbers and then click the integer to confirm that number and send its value off through the output channel. I added an extra value variable in the custom box to also output a label variable for other components could listen for. This should take negative numbers into account as well.
+				</p>
+				<h2>Listener Channels:</h2>
+					<ul>
+						<li>
+							<strong>Set value: </strong>Listens for an integer from another component to create a new whole number
+						</li>
+						<li>
+							<strong>Decrease by value: </strong>Listens for an integer to subtract from the current value to create a new value.
+						</li>
+						<li>
+							<strong>Add by value: </strong> Listens for an integer to add to the current value to create a new value.
+						</li>
+					</ul>
+				<h2>Output Channels:</h2>
+					<ul>
+						<li>
+							<strong>Output new value: </strong>Takes the current value in the integer box and pushes it out.
+						</li>
+					</ul>
+				<p><img src="Images/illustration-counter-component.jpg" alt="Interactable Counter" width="800" height="400"></p>
+	</body>
+</html>
